@@ -1,0 +1,9 @@
+Projet scrappant depuis un tableau notion l'ensemble des entrainements que j'ai fait pour ma prépa 70.3, et qui genere un PDF permattant de constater sous la forme de graph et de tableau les resultat. celui ci est envoyé par la suite par mail.
+
+Structure du fichier infos.json :
+{
+    "DB_ID" -> Id de la base de donnée Notion
+    "TOKEN" -> Token d'api notion
+    "EMAIL" -> Email gmail expediteur/destinataire
+    "APP_PASSWORD_GMAIL" : mdp application de cet email gmail
+}

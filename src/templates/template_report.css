@@ -1,0 +1,47 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 2px solid #212121;
+    border-radius: 2%;
+}
+
+table * {
+    font-size: 32px;
+}
+
+thead * {
+    text-align: center;
+}
+
+thead tr th {
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #212121;
+    color: white;
+    border-radius: 2%;
+}
+
+tbody tr td {
+    text-align: center;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 26px;
+}

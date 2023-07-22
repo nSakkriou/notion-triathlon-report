@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="template_report.css">
+</head>
+<body>
+    <h1>Rapport Hebdomadaire</h1>
+    <hr>
+
+    <h3>{{periode}}</h3>
+
+    <h3>Volume</h3>
+    <p>Volume Ciblé : {{volume_cible}}</p>
+    <p>Volume Réel : {{volume_reel}}</p>
+
+    <h3>Visualisation</h3>
+    <img src="{{path_graph_pourcentage_discipline}}" alt="graph_pourcentage_discipline">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Discipline</th>
+                <th>Temps passé</th>
+                <th>Nombre séances</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Natation</td>
+                <td>{{temps_passe_natation}}</td>
+                <td>{{nombre_seances_natation}}</td>
+            </tr>
+            <tr>
+                <td>Vélo</td>
+                <td>{{temps_passe_velo}}</td>
+                <td>{{nombre_seances_velo}}</td>
+            </tr>
+            <tr>
+                <td>Course à pied</td>
+                <td>{{temps_passe_cap}}</td>
+                <td>{{nombre_seances_cap}}</td>
+            </tr>
+            <tr>
+                <td>Musculation</td>
+                <td>{{temps_passe_musculation}}</td>
+                <td>{{nombre_seances_musculation}}</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>{{temps_passe_total}}</td>
+                <td>{{nombre_seances_total}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+    <!-- 
+    <h3>Natation</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom séance</th>
+                <th>Description</th>
+                <th>RPE</th>
+                <th>Qualité</th>
+                <th>Durée</th>
+                <th>Type de séance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Vélo</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom séance</th>
+                <th>Description</th>
+                <th>RPE</th>
+                <th>Qualité</th>
+                <th>Durée</th>
+                <th>Type de séance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Course à pied</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom séance</th>
+                <th>Description</th>
+                <th>RPE</th>
+                <th>Qualité</th>
+                <th>Durée</th>
+                <th>Type de séance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Musculation</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom séance</th>
+                <th>Description</th>
+                <th>RPE</th>
+                <th>Qualité</th>
+                <th>Durée</th>
+                <th>Type de séance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+                <td>lorem</td>
+            </tr>
+        </tbody>
+    </table>
+     -->
+
+</body>
+</html>
